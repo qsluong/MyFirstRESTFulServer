@@ -39,6 +39,6 @@ app.get( '/api/v1/hello', function( reg, res, next ) {
  */
 
 // Server starten
-app.listen( 3000, function() {
-    console.log( 'The magic happens at http://localhost:' + 3000 );
+app.listen( 3500, function() {
+    console.log( 'The magic happens at http://localhost:' + 3500 );
 });
