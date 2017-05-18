@@ -14,8 +14,8 @@ app.use(express.static(__dirname + '/public'));
 
 // Routing with versions
 // app.use('/apiv1', require("./routes/routes_apiv1" ));
-// app.use('/apiv2', require("./routes/routes_apiv2.js" ));
-app.use('/apiv3', require("./routes/routes_apiv3" ));
+app.use('/apiv2', require("./routes/routes_apiv2" ));
+// app.use('/apiv3', require("./routes/routes_apiv3" ));
 
 app.set('PORT', config.webPort);
 
@@ -39,6 +39,6 @@ app.get( '/api/v1/hello', function( reg, res, next ) {
  */
 
 // Server starten
-app.listen( 3500, function() {
-    console.log( 'The magic happens at http://localhost:' + 3500 );
+app.listen( 8000, function() {
+    console.log( 'The magic happens at http://localhost:' + 8000 );
 });

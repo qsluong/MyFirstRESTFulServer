@@ -4,5 +4,5 @@
   "dbPassword": "supersecret",
   "dbSchema": "database_schema",
   "dbServer": "localhost",
-  "webPort": "8080"
+  "webPort": "8000"
 }
